@@ -1,3 +1,8 @@
+html{
+    max-width:1920px;
+    margin: 0 auto;
+}
+
 .navbar{
     background-color:#FFFFFF;
     opacity:95%;
@@ -24,9 +29,25 @@
     font-size:90px;
 }
 
-#MainImage{
-    right:40%;
-    bottom:20%;
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+    .navbar .navbar-brand{
+        font-family:gugi;
+        color: #868686;
+        font-size:18px;
+    }
+    
 }
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+        width: 600px;
+    }
+}
+
 
  
