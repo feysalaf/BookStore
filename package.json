@@ -1,0 +1,14 @@
+{
+  "name": "lab_3",
+  "version": "1.0.0",
+  "description": "Bootstrap Example. Utilize bootstrap to create pages, navigation bar, tables.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faisal A.",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}

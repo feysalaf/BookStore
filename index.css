@@ -1,0 +1,34 @@
+.navbar{
+    background-color:#FFFFFF;
+    opacity:95%;
+}
+
+.navbar .navbar-brand{
+    font-family:gugi;
+    color: #868686;
+    font-size:30px;
+}
+
+
+.navbar .nav-item {
+    text-decoration:None;
+    color:#444444;
+    padding:10px;
+}
+
+#navbarSupportedContent
+{
+    flex-direction:row-reverse;
+}
+
+.carousel-caption h1{
+    color:rgb(255, 255, 255);
+    font-size:90px;
+}
+
+#MainImage{
+    right:40%;
+    bottom:20%;
+}
+
+ 
