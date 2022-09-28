@@ -9,18 +9,16 @@
     font-size:30px;
 }
 
-
-.navbar .nav-item {
-    text-decoration:None;
-    color:#444444;
+.navbar .nav-item{
     padding:10px;
+    font-size:18px;
 }
 
-#navbarSupportedContent
-{
-    flex-direction:row-reverse;
+.navbar button{
+    margin-top:15%;
 }
-
+ 
+ 
 .carousel-caption h1{
     color:rgb(255, 255, 255);
     font-size:90px;
