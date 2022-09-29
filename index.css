@@ -29,54 +29,14 @@ html{
     font-size:90px;
 }
 
-/* For Mobile */
-@media screen and (max-width: 540px) {
-    .view {
-        width: 400px;
-    }
-    .navbar .navbar-brand{
-        font-family:gugi;
-        color: #868686;
-        font-size:18px;
-    }   
+.card_container{
+    display:grid;
 }
-
-/* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 780px) {
-    .view {
-        width: 600px;
-    }
-    
-}
-
-/* 
-#container {
-    position: relative;
-}
-
-#image {
-   position: absolute;
-   left: 0;
-   top: 0;
-   width:100%;
-   filter: brightness(70%);
-}
-
-#text {
-   z-index: 100;
-   position: absolute;
-   color: rgb(217, 217, 217);
-   font-size: 90px;
-   font-family:Arial;
-   margin-top: 10%;
-   margin-left:7%;
-   width:60%;
-} */
  
 .card-body{
     font-size:100px;
-    margin-top:-60%;
-    margin-left:10%;
+    margin-top:-45%;
+    margin-left:6%;
     margin-right:10%;
     font-weight:bold;
     z-index:100;
@@ -88,3 +48,4 @@ html{
 img{
     filter:brightness(70%);
 }
+ 
