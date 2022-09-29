@@ -38,8 +38,7 @@ html{
         font-family:gugi;
         color: #868686;
         font-size:18px;
-    }
-    
+    }   
 }
 
 /* For Tablets */
@@ -47,7 +46,45 @@ html{
     .view {
         width: 600px;
     }
+    
 }
 
+/* 
+#container {
+    position: relative;
+}
 
+#image {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width:100%;
+   filter: brightness(70%);
+}
+
+#text {
+   z-index: 100;
+   position: absolute;
+   color: rgb(217, 217, 217);
+   font-size: 90px;
+   font-family:Arial;
+   margin-top: 10%;
+   margin-left:7%;
+   width:60%;
+} */
  
+.card-body{
+    font-size:100px;
+    margin-top:-60%;
+    margin-left:10%;
+    margin-right:10%;
+    font-weight:bold;
+    z-index:100;
+}
+.card-body p{
+    font-family:sans-serif;
+    color:rgb(228, 228, 228);
+}
+img{
+    filter:brightness(70%);
+}
